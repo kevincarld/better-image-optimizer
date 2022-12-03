@@ -1,6 +1,6 @@
 {
   "name": "better-image-optimizer",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Optimizes all static images for Next.js static HTML export functionality",
   "main": "dist/BetterImage.js",
   "module": "dist/BetterImage.js",
@@ -22,7 +22,6 @@
   "engines": {
     "node": ">=16.0.0"
   },
-
   "scripts": {
     "build": "rimraf dist && npx swc ./src/BetterImage.js -o ./dist/BetterImage.js"
   },
