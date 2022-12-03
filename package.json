@@ -1,6 +1,6 @@
 {
   "name": "better-image-optimizer",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Optimizes all static images for Next.js static HTML export functionality",
   "main": "dist/BetterImage.js",
   "module": "dist/BetterImage.js",
