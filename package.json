@@ -1,5 +1,5 @@
 {
-  "name": "better-image-optimizer",
+  "name": "better-image-optimizer-next",
   "version": "1.0.0",
   "description": "Optimizes all static images for Next.js static HTML export functionality",
   "main": "dist/BetterImage.js",
