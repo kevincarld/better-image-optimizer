@@ -1,5 +1,5 @@
 {
-  "name": "better-image",
+  "name": "better-image-optimizer",
   "version": "1.0.0",
   "description": "Optimizes all static images for Next.js static HTML export functionality",
   "main": "dist/BetterImage.js",
@@ -24,6 +24,10 @@
 
   "scripts": {
     "build": "rimraf dist && npx swc ./src/BetterImage.js -o ./dist/BetterImage.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevincarld/better-image-optimizer"
   },
   "author": "Kevin David",
   "license": "ISC",
