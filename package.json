@@ -1,13 +1,14 @@
 {
-  "name": "better-image-optimizer-next",
-  "version": "1.0.0",
+  "name": "better-image-optimizer",
+  "version": "1.0.1",
   "description": "Optimizes all static images for Next.js static HTML export functionality",
   "main": "dist/BetterImage.js",
   "module": "dist/BetterImage.js",
   "bin": "src/optimizeImages.js",
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "src"
   ],
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
