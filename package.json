@@ -1,0 +1,38 @@
+{
+  "name": "better-image",
+  "version": "1.0.0",
+  "description": "Optimizes all static images for Next.js static HTML export functionality",
+  "main": "dist/BetterImage.js",
+  "module": "dist/BetterImage.js",
+  "bin": "src/optimizeImages.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "cli-progress": "^3.10.0",
+    "sharp": "^0.31.0"
+  },
+  "peerDependencies": {
+    "next": "^13.0.5",
+    "react": "^18.2.0-0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+
+  "scripts": {
+    "build": "rimraf dist && npx swc ./src/BetterImage.js -o ./dist/BetterImage.js"
+  },
+  "author": "Kevin David",
+  "license": "ISC",
+  "private": false,
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.3.8",
+    "eslint": "^8.11.0",
+    "eslint-plugin-react": "^7.29.4",
+    "rimraf": "^3.0.2"
+  }
+}

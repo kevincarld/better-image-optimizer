@@ -1,0 +1,21 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "ecmascript",
+      "jsx": true,
+      "tsx": false,
+      "decorators": false,
+      "dynamicImport": false
+    },
+    "target": "es5",
+    "loose": false,
+    "minify": {
+      "compress": false,
+      "mangle": false
+    }
+  },
+  "module": {
+    "type": "commonjs"
+  },
+  "minify": false
+}
