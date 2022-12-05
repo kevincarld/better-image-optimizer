@@ -12,7 +12,7 @@
 
 
 Use [Next.js advanced **\<Image/>** component](https://nextjs.org/docs/basic-features/image-optimization) with the static export functionality. Optimizes all static images in an additional step after the Next.js static export.
-
+Based from library [next-image-export-optimizer](https://github.com/Niels-IO/next-image-export-optimizer#readme) - credits to Niels-IO
 
 
 - Reduces the image size and page load times drastically through responsive images
